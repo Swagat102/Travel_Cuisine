@@ -11,12 +11,20 @@ height:100%;
 
 #preloader {
     background-color:black;
-    height: 730px;
+    height: 100%;
+    width: 100%;
+    position:absolute;
     align-items: center;
     justify-content: center;
     display: flex;
     top: 0;
+    animation: screenup 1s ease-out 3s both;
+}
 
+@keyframes screenup {
+    to {
+        transform: translateY(-100%);
+    }
 }
 
 
@@ -98,10 +106,50 @@ p:nth-child(10) {
 }
 .clouds
 {
+    width: 100%;
     text-align:center;
     display:flex;
     align-items: center;
     justify-content: space-around;
-    bottom: -6%;
+    bottom: -3%;
     position: absolute;
 }
+
+.clouds img {
+    animation: abc 5s linear infinite;  
+}
+
+@keyframes abc{
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }    
+    50% {
+        opacity:1;
+    }
+    75% {
+        opacity:1;
+    }
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+    
+}
+
+.clouds img:nth-child(1) {
+    animation-delay: 1.30s; 
+}
+
+.clouds img:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.clouds img:nth-child(3) {
+    animation-delay: 2.5s;
+}
+
+.clouds img:nth-child(4) {
+    animation-delay: .75s;
+}
+
