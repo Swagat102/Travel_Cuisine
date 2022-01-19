@@ -29,7 +29,7 @@ height:100%;
 
 
 
-p {
+.text p {
     display: inline-block;
     color: white;
     text-align: center;
@@ -63,35 +63,35 @@ p {
 
 }
 
-p:nth-child(1) {
+.text p:nth-child(1) {
     animation: anything 3s ease-in-out infinite;
 }
 
-p:nth-child(2) {
+.text p:nth-child(2) {
     animation: anything 3s ease-in-out infinite 0.25s;
 }
-p:nth-child(3) {
+.text p:nth-child(3) {
     animation: anything 3s ease-in-out infinite 0.5s;
 }
-p:nth-child(4) {
+.text p:nth-child(4) {
     animation: anything 3s ease-in-out infinite 0.75s;
 }
-p:nth-child(5) {
+.text p:nth-child(5) {
     animation: anything 3s ease-in-out infinite 1s;
 }
-p:nth-child(6) {
+.text p:nth-child(6) {
     animation: anything 3s ease-in-out infinite 1.25s;
 }
-p:nth-child(7) {
+.text p:nth-child(7) {
     animation: anything 3s ease-in-out infinite 1.5s;
 }
-p:nth-child(8) {
+.text p:nth-child(8) {
     animation: anything 3s ease-in-out infinite 1.75s;
 }
-p:nth-child(9) {
+.text p:nth-child(9) {
     animation: anything 3s ease-in-out infinite 2s;
 }
-p:nth-child(10) {
+.text p:nth-child(10) {
     animation: anything 3s ease-in-out infinite 2.25s;
 }
 
@@ -153,3 +153,35 @@ p:nth-child(10) {
     animation-delay: .75s;
 }
 
+ul {
+    list-style-type: none;
+}
+
+ul li{
+margin: 20px 20px 20px 0;
+font-size: 20px;
+}
+
+ hr
+{
+    width:100%;
+}
+ul li:first-child
+{
+margin-left:10px;
+}
+
+.Welcome {
+    width:100%;
+    height:100%;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+}
+h1 
+{
+    font-size:42px;
+}
+p {
+   font-size:20px;
+}
