@@ -170,18 +170,40 @@ ul li:first-child
 {
 margin-left:10px;
 }
-
-.Welcome {
+.TravelCuisine {
     width:100%;
     height:100%;
     justify-content: center;
     display:flex;
     align-items: center;
+    color:white;
 }
-h1 
+.WelcomePage{
+    text-align:center;
+}
+.WelcomePage h1 
 {
     font-size:42px;
 }
-p {
+.WelcomePage p {
    font-size:20px;
+}
+.nav{
+    color:white;
+}
+button{
+margin-top:25px;
+padding: 15px 30px;
+background:transparent;
+border-radius:5px;
+border:2px solid white;
+color:white;
+font-size:18px;
+}
+
+.GalleryPhotos{
+    background-color:rgb(36 36 36)
+}
+.GalleryText{
+    color:white;
 }
