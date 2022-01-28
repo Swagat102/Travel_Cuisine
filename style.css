@@ -206,4 +206,17 @@ font-size:18px;
 }
 .GalleryText{
     color:white;
+    text-align:center;
+    padding-top:100px;
+
+}
+.GalleryPictures{
+    margin-top:100px;
+    margin-left:200px;
+    margin-right:200px;
+    justify-content: space-around;
+    filter:grayscale(100%);
+}
+.GalleryPictures:hover{
+    filter:grayscale(0%);
 }
