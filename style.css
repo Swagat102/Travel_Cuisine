@@ -245,3 +245,7 @@ font-size:18px;
     color:white;
     margin-bottom:30px;
 }
+a {
+    text-decoration:none;
+    color:white;
+}
